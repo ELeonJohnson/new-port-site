@@ -1,0 +1,14 @@
+@import "cssReset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600i,700');
+@import "topSection.css";
+@import "services.css";
+@import "portfolioSection.css";
+
+body {
+  /* background: #eeeeee; */
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
