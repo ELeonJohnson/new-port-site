@@ -1,0 +1,153 @@
+#blog-section {
+  padding: 100px 15px;
+  background: #f9fafc;
+}
+
+#blog-section .title h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight:900;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+#blog-section .blog-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 588px 588px;
+  grid-gap: 15px;
+  overflow: hidden;
+
+}
+
+#blog-section .blog-container .post-img-1 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/web-blog-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f2f3f5;
+}
+
+#blog-section .blog-container .post-img-2 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/web-blog-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f2f3f5;
+}
+
+#blog-section .blog-container .post-img-3 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/fashion-blog-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f2f3f5;
+}
+
+#blog-section .blog-container .post-img-4 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/fashion-blog-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f2f3f5;
+}
+
+#blog-section .blog-container .post-img-5 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/life-blog-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f2f3f5;
+}
+
+#blog-section .blog-container .post-img-6 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/life-blog-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f2f3f5;
+}
+
+#blog-section .blog-container .post {
+  position: relative;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+  overflow: hidden;
+}
+
+#blog-section .blog-container .details {
+  background: white;
+  padding: 35px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  transform: translate3d(0, -200px, 0);
+  transition: all .4s ease-in-out;
+}
+
+#blog-section .blog-container .post .details h4 {
+  font-size: 1.1rem;
+  color: #13171a;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1.8rem;
+}
+
+#blog-section .blog-container .post .details p {
+  color: #919191;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-bottom: 1.8rem;
+}
+
+#blog-section .blog-container .post .more {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  bottom: 0;
+  background: white;
+  padding: 35px;
+
+}
+
+#blog-section .blog-container .post .more .button {
+  color: #13171a;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-bottom: 2px solid #ff5253;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  transition: all .4s ease-in-out .1s;
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+}
+
+/* Hover Effect On Post */
+#blog-section .blog-container .post:hover .details {
+  transform: translate3d(0, -588px, 0);
+}
+
+#blog-section .blog-container .post:hover .more .button {
+  transform: translate3d(0, 0, 0);
+  color: #ff5253;
+  opacity: 1;
+}
