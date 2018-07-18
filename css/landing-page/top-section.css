@@ -61,7 +61,7 @@
 }
 
 #top .img .background-img {
-  background: url("../img/headshot.jpg");
+  background: url("../../img/headshot.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
