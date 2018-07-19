@@ -16,6 +16,87 @@
   height: 450px;
 }
 
+#portfolio-projects .project-image .img2 {
+  background: url("../../img/realestate.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img3 {
+  background: url("../../img/phonebook-app.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img4 {
+  background: url("../../img/yelpcamp.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img5 {
+  background: url("../../img/portfoliotemplate.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img6 {
+  background: url("../../img/blogapp.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img7 {
+  background: url("../../img/todo.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img8 {
+  background: url("../../img/fortuneteller.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img9 {
+  background: url("../../img/virtualpet.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
+#portfolio-projects .project-image .img10 {
+  background: url("../../img/rgbgame.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 450px;
+}
+
 #portfolio-projects h1 {
   font-size: 4rem;
   font-weight: 600;
